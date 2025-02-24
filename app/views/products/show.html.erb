@@ -1,0 +1,19 @@
+<h1>Products#show</h1>
+<p>Find me in app/views/products/show.html.erb</p>
+<%= link_to "Back", products_path %>
+
+<div class="col">
+  <div class="d-flex flex-column">
+    <h1 class="">
+      <%= @product.name %>
+    </h1>
+    <p class="">
+      <%= @product.description %>
+    </p>
+    <hr>
+    <p class="d-flex align-items-end">
+      ￥<%= @product.price %>(税込)
+    </p>
+    <hr>
+  </div>
+</div>
