@@ -46,6 +46,12 @@ gem 'jquery-rails'
 
 gem 'devise', '~> 4.2'
 
+# それらしい値を自動生成できる
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :tag => 'v2.19.0'
+
+# ページネーションを実装できる
+ gem 'kaminari'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
