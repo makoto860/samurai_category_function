@@ -47,7 +47,7 @@ gem 'jquery-rails'
 gem 'devise', '~> 4.2'
 
 # それらしい値を自動生成できる
-gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :tag => 'v2.19.0'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :tag => 'v3.5.1'
 
 # ページネーションを実装できる
  gem 'kaminari'
